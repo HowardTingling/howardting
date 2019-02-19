@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html class="full" lang="en">
+<!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. -->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Howard Ting</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/laptop.css">
+    <link href="css/small.css" media="screen and (max-width: 380px)" rel="stylesheet">
+    <link href="css/large.css" media="screen and (min-width: 381px) and (max-width: 767px)" rel="stylesheet">
+    <link href="css/tablet.css" media="screen and (min-width: 768px) and (max-width: 959px)" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span style="font-size:115%">Menu</span>
+                </button>
+                <img class="navbar-brand" href="#"></img>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav" style="text-align:center;">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#about">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#education">Education</a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#projects">Experience</a>
+                    </li>
+                    <li>
+                        <a href="./files/mainresume.pdf" target="_blank">Resume</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/HowardTingling" target="_blank">Github</a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <div style="position: absolute; z-index: -1; top: 0px; left: 0px; bottom: 0px; right: 0px; overflow: hidden; background-size: cover; background-repeat: no-repeat; background-position: 50% 50%; background-image: url(./images/spacepaper.jpg);" alt="coolimage">
+        <video autoplay="" loop="" style="margin: auto; position: absolute; z-index: -1; top: 50%; left: 50%; transform: translate(-50%, -50%); visibility: hidden; width: auto; height: 505px;">
+            <source src="video/cv.mp4" type="video/mp4">
+            <source src="video/cv.webm" type="video/webm">
+            <source src="video/cv.ogv" type="video/ogg">
+        </video>
+    </div>
+    <!-- Put your page content here! -->
+
+    <!-- About Modal -->
+
+    <div class="modal fade" id="about" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="container modal-container">
+            <div class="row">
+                <div class="modal-body" style="width:100%;">
+                    <h1>Howard Ting (Me)</h1>
+                    <hr class="star-primary">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <img src="./images/Head.jpg" class="img-responsive img-centered circle-pic centered" alt="My Picture">
+                        <p id="about-description">
+                            I see software as an ever-expanding set of tools that can be used to solve interesting and challenging sets of problems.
+                            <br><br>When working in a team, I believe leading by example and open communication are the most effective to inducing mutually motivated productivity. I also like to eat raw bell peppers
+                            <img src="images/red-bell.png" id="bell-pepper"></img>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Education Modal -->
+    <div id="education" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+
+                <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+                <div class="experience-left">
+                    <div>
+                        <div class="media">
+                            <div id="uc-module">
+                                <img src="./images/BananaSlug.png" class="media-object media-left" id="slug-edu">
+                                <p class="media-body">University of California, Santa Cruz</p>
+                            </div>
+                            <h4 style="clear:both">Class of 2017</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-right">
+                    <h2>B.S. Computer Science</h2>
+                    <div class="bottom-line"></div>
+                    <ul class="unstyled-ul">
+                        <li style="font-size:1.1em;">(Relevant Courses)</li>
+                        <div id="class-list" style="text-decoration:underline;">
+                            <li>Algorithms & Abstract Data Types</li>
+                            <li>Fundamentals of Compiler Design I</li>
+                            <li>Software Design Project II</li>
+                            <li>Computational Models</li>
+                            <li>Introduction to Operating Systems</li>
+                            <li>Introduction to Algorithm Analysis</li>
+                            <li>Introduction to Probability Theory</li>
+                            <li>Introduction to Data Structures</li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Modal -->
+    <div id="projects" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content modal-container">
+                <div class="modal-header">
+                    <h3 class="modal-title white-text">Experience & Projects</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <ul class="white-text unstyled-ul">
+                            <div>
+                                <li><a href="#" class="project-title" id="calm-stop-title">+ Calm Stop Mobile</a></li>
+                                <div class="hidden-container project-text" id="calm-stop-text">
+                                    Worked with team of 4 in a fast-paced, iterative development environment (i.e. agile) while learning how to use Android Studio to build a mobile application for our sponsor, Police Strategies: <a href="http://scalesstrategic.com/" style="color:yellow" target="_blank">PoliceStrategies<sup>TM</sup></a>. Set up the UI and backend for the app's login and signup, created the initial functioning UI/code prototype of the app's chat messaging system, and imported an API (glide) to create a photo upload and reception module. The team used Firebase extensively as our intermediary database for all transmissions and data storage
+                                    </div>
+                            </div>
+                            <!--
+                            <div>
+                                <li><a href="#" class="project-title" id="bagua-title">+ Webpage: Bagua Martial Arts</a></li>
+                                <div class="hidden-container project-text" id="bagua-text">Designed and built a website under the commission of Bagua martial arts master, Stevens Zou, to help promote and teach Bagua. Link below:<br><a href="" style="color:yellow" target="_blank">Bagua : Eight Trigram Palm</a></div>
+                            </div>
+                        
+                            <div>
+                                <li><a href="#" class="project-title" id="task-title">+ Task Assign Web</a></li>
+                                <div class="hidden-container project-text" id="task-assign-text">
+                                    Task assign is a web app. It mixes and matches groups under categories. For example, given a list of drivers and a list of passengers, the application outputs a pseudo-randomized, even matching of passengers to drivers.
+                                    <a href="" style="color:yellow" target="_blank">taskassign.com</a>
+                                </div>
+                            </div>
+                            -->
+                            <div>
+                                <li><a href="#" class="project-title" id="tutor-title">+ LSS Tutor</a></li>
+                                <div class="hidden-container project-text" id="tutor-text">
+                                    Tutor for the introduction to Compiler Design (CS104) and the Introduction to Algorithm Analysis (CS102) courses at UC Santa Cruz under Learning Support Services. Designed weekly lesson plans to tutor small groups. Reviewed architecture of the course project for the compiler course (written in C++) and compiler design concepts. Reviewed basic algorithm paradigms (e.g. DP, greedy, graphs, divide & conquer) for the algorithms course.
+                                </div>
+                            </div>
+                            <div>
+                                <li><a href="#" class="project-title" id="portolio-title">+ Portfolio Page</a></li>
+                                <div class="hidden-container project-text" id="portfolio-text">This webpage. Hosted on github. Written using HTML5, CSS (with bootstrap integration), and javascript.</div>
+                            </div>
+                            <div>
+                                <li><a href="#" class="project-title" id="game-title">+ Unity Game(s)</a></li>
+								<div class="hidden-container project-text" id="games-text">Contributed to two games (COMA and RAIJU) built in Unity as part of the UC Santa Cruz student-lead game design organization, <a href="https://www.linkedin.com/company/18188453/" style="color:yellow; text-decoration:underline;">GDA</a>; designed and built a toggle inventory for the game COMA. Composed music using Musescore and FL Studios 11 for the game RAIJU.</div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Modal -->
+
+    <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="container modal-container">
+            <div class="row">
+                <div class="modal-body" style="width:100%;">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <ul class="unstyled-ul white-text">
+                            <li>Phone: 925-860-9128</li>
+                            <li>Email: cuberuru@gmail.com</li>
+                            <li>Address: Milpitas, CA</li>
+                        </ul>
+                            <img src="images/red-bell.png" id="bell-pepper"></img>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <p>Howard Ting | Software Engineer</p>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/hiddenshow.js"></script>
+</body>
+</html>
