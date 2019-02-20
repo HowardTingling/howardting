@@ -1,0 +1,128 @@
+/*
+ * Start Bootstrap - Full (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    margin-top: 50px; /* Required margin for .znavbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+/*EXPERIENCE MODULE*/
+.modal-header {
+	font-size: 8px;
+}
+
+.project-title:hover, .project-title:focus {
+	font-size:1.1em;
+}
+
+.project-text {
+	width:100%;
+	font-size: .8em;
+	margin-left:-14px;
+	margin-bottom:10px;
+	display:none;
+}
+
+h3.modal-title{
+	font-size: 2.4em;
+}
+
+.project-title {
+	margin-left:-26px;
+}
+
+.full {
+    background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.experience-left {
+	border-radius:10%;
+	font-size:21px;
+	float: left;
+	width: 100%;
+	background-color:black;
+	padding-left: 7px;
+	padding-bottom:5px;
+	padding: -1em 0;
+	border: 2px dashed white;
+	color:white;
+	-webkit-transition: .5s all;
+	-moz-transition: .5s all;
+	transition: .5s all;
+	-o-transition: .5s all;
+	-ms-transition: .5s all;
+}
+
+.experience-right {
+	border-radius:5%;
+	border-style:double;
+	background-color:black;
+	clear: both;
+	font-size:10px;
+	color: white;
+	width: 100%;
+	border: 2px double white;
+	border-width:5px;
+	padding: 1.5em;
+	padding-top:.5em;
+	-webkit-transition: .5s all;
+	-moz-transition: .5s all;
+	transition: .5s all;
+	-o-transition: .5s all;
+	-ms-transition: .5s all;
+}
+
+.experience-right p {
+    color: #fffff;
+    font-size:1.2em;
+}
+
+.experience-right h2 {
+	font-size:19px;
+}
+
+.experience-left h4 {
+    font-size:21px;
+    text-align:center;
+}
+
+
+#slug-edu {
+	float:left;
+	width:114px;
+	padding-top:13px;
+}
+
+/*START ABOUT ME MODULE*/
+#about > .modal-container{
+	width:100%;
+	margin-top:50px;
+	font-size:.8em;
+}
+
+.circle-pic {
+    padding:0;
+    margin:0;
+    width: 0px;
+}
+
+#about-description {
+	font-size:14px;
+	text-align:left;
+}
+.modal-body > h1 {
+	font-size:20px;
+}
+
+.modal-body {
+	padding:0;
+}
+
+/*END ABOUT ME MODULE*/

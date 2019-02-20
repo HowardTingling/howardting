@@ -1,0 +1,240 @@
+/* START BOOTSTRAP MODIFICATION */
+.navbar-toggle {
+    color:white;
+    border:transparent;
+    position:relative;
+    right:40%;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: transparent;
+}
+@media (min-width: 1200px) {
+    .col-lg-offset-1 {
+        margin-left: 0;
+    }
+    .col-lg-10 {
+        width: 100%;
+    }
+}
+/* END BOOTSTRAP MODIFICATION */
+/* START GENERIC STYLINGS */
+
+body {
+    margin-top: 50px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+a { 
+    color: white;
+    text-decoration: none;
+} 
+a:hover {
+    color: yellow;
+    text-decoration:none;
+    font-size:1.1em;
+}
+a:active, a:focus {
+    color: yellow;
+    text-decoration:none;
+    font-size:1.5em;
+}
+
+.full {
+    background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.unstyled-ul {
+    font-size:1.25em;
+    list-style:none;
+    padding:0;
+    margin:0;
+    padding-top:5px;
+}
+
+.white-text {
+  color:white;
+}
+
+.bottom-line {
+    border-bottom: 1px solid white;
+}
+/* END GENERIC STYLINGS */
+/* START EXPERIENCE/PROJECTS MODULE */
+.modal-header {
+	text-align:left;
+}
+
+.project-title:hover, .project-title:focus {
+	font-size:1.1em;
+}
+
+.project-text {
+	width:538px;
+	font-size:15px;
+	margin-left: 15px;
+	margin-bottom:10px;
+	display:none;
+}
+
+h3.modal-title{
+	font-size: 2em;
+}
+
+.project-title {
+	margin-left:0px;
+}
+
+.experience-left {
+	border-radius:10%;
+	font-size:15px;
+	float: left;
+	width: 30%;
+	background-color:black;
+	padding-left: 7px;
+	padding-bottom:5px;
+	padding: -1em 0;
+	border: 2px dashed white;
+	color:white;
+	-webkit-transition: .5s all;
+	-moz-transition: .5s all;
+	transition: .5s all;
+	-o-transition: .5s all;
+	-ms-transition: .5s all;
+}
+
+.experience-right {
+	border-radius:5%;
+	border-style:double;
+	background-color:black;
+	float: right;
+	font-size:15px;
+	color: white;
+	width: 70%;
+	border: 2px double white;
+	border-width:5px;
+	padding: 1.5em;
+	padding-top:.5em;
+	-webkit-transition: .5s all;
+	-moz-transition: .5s all;
+	transition: .5s all;
+	-o-transition: .5s all;
+	-ms-transition: .5s all;
+}
+
+.experience-left h4 {
+    font-size:177%;
+}
+
+.experience-right p {
+    color: #fffff;
+    font-size:1.2em;
+}
+
+.experience-right .unstyled-ul {
+	font-size:1.25em;
+    list-style:none;
+    padding:0;
+    margin:0;
+    padding-top:5px;
+}
+
+.experience-left img {
+	float: right;
+	display: block;
+	width:92px;
+}
+
+/* END EXPERIENCE/PROJECTS MODULE */
+/* START EDUCATION MODULE */
+
+#slug-edu {
+	float:left;
+	width:76px;
+}
+
+#uc-module {
+	padding-top:10px;
+}
+
+/* END EDUCATION MODULE */
+/* START ABOUT MODULE */
+
+#about > .modal-container{
+	width:380px;
+	margin-top:50px;
+	font-size:.8em;
+	border-radius:5%;
+    background-color: rgb(0,0,5);
+    border-style: double;
+    border-width:5px;
+}
+
+#about .modal-body {
+	color: white;
+    text-align:center;
+}
+
+.circle-pic {
+    position:relative;
+    float:left;
+    padding-right:5px;
+    margin-right:0;
+    overflow:hidden;
+    border-radius: 50%;
+    width: 150px;
+    padding-bottom:5px;
+}
+
+.circle-pic img {
+    position:absolute;
+    height: auto;
+    width:150px;    
+    max-width:100%;
+    transform:translateY(-50%);
+}
+
+#about-description {
+	font-size:16px;
+	text-align:left;
+	text-indent:10px;
+}
+
+#bell-pepper {
+	width:20px;
+}
+/* END ABOUT MODULE */
+/* START CONTACT MODULE */
+#contact > .modal-container{
+    width:380px;
+    margin-top:50px;
+    font-size:.8em;
+    border-radius:5%;
+    background-color: rgb(0,0,5);
+    border-style: double;
+    border-width:5px;
+}
+
+#contact .modal-body {
+    color: white;
+    text-align:center;
+}
+/* END CONTACT MODULE */
+/* START FOOTER */
+.footer {
+    position: absolute;
+    background-color: black;
+    color: white;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+}
+/* END FOOTER */
